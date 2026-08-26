@@ -1,0 +1,23 @@
+.markdown-preview-view .callout[data-callout="cue"] {
+    float: right;
+    padding: 8px;
+    position: absolute;
+    left: 4%;
+    width: 20%;
+    max-width: 300px;
+    min-width: 150px;
+    max-height: 200px;
+    color: white;
+}
+
+.markdown-preview-view .callout[data-callout="cue"] .callout-icon {
+    display: none;
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 50%;
+}
+
+.markdown-preview-view .callout[data-callout="summary"] {
+    margin-top: 100px;
+}

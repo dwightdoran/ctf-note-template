@@ -1,4 +1,25 @@
+# Obsidian: personal UI/session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Obsidian trash
 .trash/
+
+# Operating-system metadata
 .DS_Store
 Thumbs.db
-.obsidian
+desktop.ini
+
+# Local secrets, if tools/scripts are added later
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*~
